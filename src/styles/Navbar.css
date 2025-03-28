@@ -1,0 +1,57 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2aeb84;
+    color: #fff;
+    padding: 15px 30px;
+}
+  
+.navbar .logo {
+    font-size: 24px;
+}
+  
+.user-menu {
+    position: relative;
+    cursor: pointer;
+}
+  
+.username {
+    font-weight: bold;
+}
+
+.dropdown-menu {
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 6px;
+    top: 30px;
+    width: 200px;
+    z-index: 10;
+}
+  
+.dropdown-menu .user-details {
+    margin-bottom: 10px;
+}
+  
+.dropdown-menu p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+  
+.dropdown-menu button {
+    display: block;
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 8px 12px;
+    text-align: left;
+    cursor: pointer;
+}
+  
+.dropdown-menu button:hover {
+    background-color: #f0f0f0;
+}

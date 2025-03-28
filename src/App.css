@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+  
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .navbar, .sidebar, .table-container {
+    padding: 15px;
+  }
+  
+  .sidebar {
+    text-align: center;
+  }
+  
+  .table-container table, .table-container th, .table-container td {
+    font-size: 14px;
+  }
+}
+  
